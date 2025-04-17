@@ -3,6 +3,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 import Bem_Vindo from './pages/index';
 import pesquisa from './pages/pesquisaYoutube';
 import pesquisavimeo from './pages/pesquisaVimeo';
+import rotaInterna from './pages/rotaInterna';
 
 
 
@@ -27,6 +28,11 @@ export default function Routes() {
             <Stack.Screen
                 name="pesquisavimeo"
                 component={pesquisavimeo}
+            />
+
+            <Stack.Screen
+                name="rotaInterna"
+                component={rotaInterna}
             />
 
         </Stack.Navigator>

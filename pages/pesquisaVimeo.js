@@ -131,9 +131,10 @@ const estilos = StyleSheet.create({
   },
 
   ViewVimeotexto: {
+    display: 'flex',
     textAlign: 'center',
-    marginLeft: 60,
-    width: 250,
-    fontSize: 25,
+    justifyContent: 'center',
+    alignItems: 'center',
+    fontSize: 30,
   }
 });

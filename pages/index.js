@@ -11,12 +11,12 @@ export default function Bem_Vindo() {
     return (
         <View style={styles.container}>
             <Text style={styles.title}>Bem-vindo!</Text>
-            <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('pesquisa')}>
-                <Text style={styles.buttonText}>API do youtube</Text>
+            <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('rotaInterna')}>
+                <Text style={styles.buttonText}>Acesse aqui</Text>
             </TouchableOpacity>
-            <TouchableOpacity style={styles.button2} onPress={() => navigation.navigate('pesquisavimeo')}>
+            {/* <TouchableOpacity style={styles.button2} onPress={() => navigation.navigate('pesquisavimeo')}>
                 <Text style={styles.buttonText}>API do vimeo</Text>
-            </TouchableOpacity>
+            </TouchableOpacity> */}
             <StatusBar style="auto" />
         </View>
     );
@@ -34,25 +34,17 @@ const styles = StyleSheet.create({
         padding: 20,
     },
     title: {
-        fontSize: 24,
+        fontSize: 28,
         fontWeight: 'bold',
-        color: '#333',
+        color: '#000',
         marginBottom: 20,
     },
     button: {
-        backgroundColor: '#05445E',
-        paddingVertical: 10,
-        paddingHorizontal: 20,
-        borderRadius: 5,
-        borderWidth: 2,
-        borderColor: '#fff',
-    },
-
-
-    button2: {
-        marginTop: 10,
-        width: 165,
-        backgroundColor: '#189AB4',
+        height: 50,
+        width: 150,
+        alignItems: 'center',
+        justifyContent: 'center',
+        backgroundColor: '#75E6DA',
         paddingVertical: 10,
         paddingHorizontal: 20,
         borderRadius: 5,
@@ -61,7 +53,10 @@ const styles = StyleSheet.create({
     },
 
     buttonText: {
-        color: '#fff',
-        fontSize: 18,
-    },
+        color: '#000',
+        fontWeight: '500',
+        fontSize: 16,
+    }
+
+    
 });
