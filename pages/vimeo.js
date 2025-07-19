@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const ACCESS_TOKEN = 'e2d276c7582bfa9bfdd907899e723388'; // token gerado no site do Vimeo
+const ACCESS_TOKEN = 'SUA_CHAVE_API'; // token gerado no site do Vimeo
 
 export const buscarVideosVimeo = async (query) => {
   try {

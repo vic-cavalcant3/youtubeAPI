@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_KEY = 'AIzaSyCovKXNdu3iu2QRbzy-KY4v6Ko2GH496qg';
+const API_KEY = 'SUA_CHAVE_API';
 
 export const buscarVideos = async (query) => {
   try {
